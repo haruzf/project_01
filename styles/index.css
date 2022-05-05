@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 700px;
+    height: 400px;
+    /* background-color: pink; */
+    margin: 80px auto 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tabbox {
+    height: 350px;
+    border: 1px solid rgb(226, 201, 154);
+}
+
+.firstnav {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    /* background-color: skyblue; */
+    border-bottom: 1px solid #999
+}
+
+.firstnav ul {
+    float: left;
+}
+
+.firstnav ul li {
+    position: relative;
+    /* display: block; */
+    float: left;
+    /* width: 75px;
+    height: 40px; */
+    /* font-size: 14px; */
+    /* line-height: 40px; */
+    /* text-align: center; */
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+
+.liactive {
+    border-bottom: 1px solid white !important;
+}
+
+.firstnav ul li span:nth-child(1) {
+    display: block;
+    width: 75px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    box-sizing: border-box;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.icon-guanbi {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    font-size: 3px;
+    line-height: 10px;
+    border-bottom-left-radius: 50%;
+    color: white;
+    background-color: black;
+}
+
+
+/* .tabadd {
+    width: 21px;
+    height: 10px;
+} */
+
+.tabadd span {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    display: block;
+    width: 12px;
+    height: 22px;
+    padding: 0 2px;
+    font-size: 16px;
+    border: 1px solid #999;
+}
+
+.tabscon section {
+    display: none;
+    width: 500px;
+    height: 150px;
+    padding: 30px;
+}
+
+.tabscon .conactive {
+    display: block;
+}
